@@ -24,7 +24,7 @@ pipeline {
           sh '''
             cat > inventory_runtime.ini <<EOF
             [windows]
-            windows1 ansible_host=10.0.0.45
+            windows1 ansible_host=3.0.177.161
 
             [windows:vars]
             ansible_user=${WIN_USER}
