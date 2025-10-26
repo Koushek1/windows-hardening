@@ -1,0 +1,6 @@
+---
+- name: Harden and configure Windows server
+  hosts: windows
+  gather_facts: yes
+  roles:
+    - harden_windows
